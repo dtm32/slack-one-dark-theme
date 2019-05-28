@@ -1770,5 +1770,9 @@ feature_archive_deeplink feature_texty winssb light_theme {
   background: #222;
 }
 
+div#client-body::before {
+  content: none;
+}
+
 
 /*# sourceMappingURL=custom.css.map */
