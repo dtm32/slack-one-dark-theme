@@ -1770,7 +1770,7 @@ feature_archive_deeplink feature_texty winssb light_theme {
   background: #222;
 }
 
-div#client-body::before {
+div#client_body::before {
   content: none;
 }
 
