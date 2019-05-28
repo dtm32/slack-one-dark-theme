@@ -1767,9 +1767,9 @@ feature_archive_deeplink feature_texty winssb light_theme {
   margin-left: 20px !important; }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
-  background: #222 !important;
+/*   background: #222 !important;
   height: 32px !important;
-  border-bottom: 1px solid #666 !important;
+  border-bottom: 1px solid #666 !important; */
 }
 
 div#client_body::before {
@@ -1788,6 +1788,12 @@ div#footer {
 
 header#client_header {
   border-left: 1px solid #252525 !important;
+}
+
+div.c-scrollbar__hider::before {
+  background: #333 !important;
+  height: 32px !important;
+  border-bottom: 1px solid #666 !important;
 }
   
 /*# sourceMappingURL=custom.css.map */
