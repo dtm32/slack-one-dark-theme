@@ -1781,4 +1781,8 @@ div#client_body::before {
  box-shaddow: 0 32px #222; 
 }
 
+div#footer {
+  z-index: 1;
+  border-left: 1px solid #161616;
+
 /*# sourceMappingURL=custom.css.map */
