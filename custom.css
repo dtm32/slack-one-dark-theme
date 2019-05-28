@@ -1,3 +1,15 @@
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+  background: #222;
+}
+
+div#client_body::before {
+  content: none;
+}
+
+.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before {
+ box-shaddow: 0 32px #222; 
+}
+
 @import url("https://fonts.googleapis.com/css?family=Bad+Script|Rajdhani");
 :root {
   /* Modify these to change your theme colors: */
@@ -1766,15 +1778,5 @@ feature_archive_deeplink feature_texty winssb light_theme {
   font-family: var(--font-family) !important;
   margin-left: 20px !important; }
 
-.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
-  background: #222;
-}
 
-div#client_body::before {
-  content: none;
-}
-
-.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before {
- box-shaddow: 0 32px #222; 
-}
 /*# sourceMappingURL=custom.css.map */
