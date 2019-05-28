@@ -1768,6 +1768,8 @@ feature_archive_deeplink feature_texty winssb light_theme {
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
   background: #222 !important;
+  height: 32px !important;
+  border-bottom: 1px solid #666 !important;
 }
 
 div#client_body::before {
