@@ -15,8 +15,8 @@
   --text-bright: #FFF;
   --text-dim: #555c69;
   --text-special: var(--primary);
+  --text-special: #09F;
   --text-accent: var(--text-bright);
-  --text-link: #09F;
   --scrollbar-background: #000;
   --scrollbar-border: var(--primary);
   --yellow: #fc0;
