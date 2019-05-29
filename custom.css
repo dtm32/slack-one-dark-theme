@@ -1887,4 +1887,9 @@ div::-webkit-scrollbar-thumb, .lfs_list::-webkit-scrollbar-thumb, #contents_cont
   background: var(--background-elevated) !important;
 }
 
+.p-emoji_picker__group_tab--active {
+  background: var(--primary) !important;
+  color: var(--background-elevated) !important;
+}
+
 /*# sourceMappingURL=custom.css.map */
