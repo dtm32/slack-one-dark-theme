@@ -1802,6 +1802,11 @@ div.c-scrollbar__hider::before {
   opacity: 0.32 !important;
 } */
 
+/* left border */
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+  border-left: 1px solid #252525 !important;
+}
+
 .c-pillow_file__snippet__content .CodeMirror-code>div:before {
   color: var(--text) !important;
   opacity: 0.32;
@@ -1850,12 +1855,22 @@ div.c-scrollbar__hider::before {
 
 /* new message banner */
 .p-message_pane__top_banners::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -20px;
   left: -20px;
   background: red;
   z-index: 200;
+}
+
+/* remove message hover highlight */
+.client_main_container #client_body .c-message:hover {
+  background: var(--background) !important;
+}
+
+/* scrollbar styling */
+.c-scrollbar::-webkit-scrollbar-thumb {
+  border: none !important;
 }
 
 /*# sourceMappingURL=custom.css.map */
