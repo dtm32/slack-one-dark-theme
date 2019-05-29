@@ -1129,7 +1129,7 @@ a .message_sender .member .member_preview_link {
   border-bottom-width: 2px; }
   .p-emoji_picker__group_tab:hover {
     background-color: var(--background-elevated);
-    border-color: var(--border-dim); }
+    border-color: var(--primary); }
     .p-emoji_picker__group_tab:hover .emoji-sizer {
       color: var(--text); }
   .p-emoji_picker__group_tab .emoji-sizer {
