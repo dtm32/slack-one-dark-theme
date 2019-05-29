@@ -1795,5 +1795,16 @@ div.c-scrollbar__hider::before {
   height: 32px !important;
   border-bottom: 1px solid #666 !important;
 }
+
+// Code snippet styling
+div.c-message_kit__file__meta {
+  color: var(--text) !important;
+  opacity: 0.32;
+}
+
+.c-pillow_file__snippet__content .CodeMirror-code>div:before {
+  color: var(--text) !important;
+  opacity: 0.32;
+}
   
 /*# sourceMappingURL=custom.css.map */
