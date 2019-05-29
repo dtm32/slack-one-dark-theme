@@ -1819,5 +1819,33 @@ div.c-scrollbar__hider::before {
 .c-pillow_file_container {
   border-color: var(--border-dim) !important;
 }
+
+/* Delete message modal */
+.c-dialog__content, .c-dialog__header, .c-dialog__footer {
+  background: var(--background) !important;
+  box-shadow: none !important;
+}
+
+ .c-dialog__title {
+  color: var(--text-accent) !important;
+}
+
+.c-dialog__header, .c-dialog__body, .c-message__sender, .c-message__body {
+  color: var(--text) !important;
+}
+
+.c-message--standalone {
+  border-color: var(--border-dim) !important;
+}
+
+.c-button--outline:hover {
+  box-shadow: none !important;
+  color: var(--text-special) !important;
+}
+
+.c-button--danger:hover {
+  box-shadow: none !important;
+  color: var(--red2) !important;
+}
   
 /*# sourceMappingURL=custom.css.map */
