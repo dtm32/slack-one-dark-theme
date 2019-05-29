@@ -1797,7 +1797,7 @@ div.c-scrollbar__hider::before {
 }
 
 // Code snippet styling
-span.c-message_kit__file__meta__text, i.c-icon c-icon--caret-down c-icon--inherit::before {
+span.c-message_kit__file__meta__text>span, i.c-icon c-icon--caret-down.c-icon--inherit::before {
   color: var(--text) !important;
   opacity: 0.32 !important;
 }
