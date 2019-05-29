@@ -896,7 +896,7 @@ div::-webkit-scrollbar-thumb,
 .p-channel_sidebar div.c-custom_scrollbar__thumb_vertical,
 .p-channel_sidebar div.c-scrollbar__bar {
   background: var(--background-elevated);
-  border: 1px solid var(--background-elevated); }
+  border: 1px solid var(--background-elevated) !important; }
 
 #client-ui .monkey_scroll_bar {
   background: var(--background-elevated); }
