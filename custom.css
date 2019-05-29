@@ -1806,5 +1806,10 @@ span.c-message_kit__file__meta__text>span, i.c-icon c-icon--caret-down.c-icon--i
   color: var(--text) !important;
   opacity: 0.32;
 }
+
+.c-message_kit__file__meta {
+  color: var(--text) !important;
+  opacity: 0.32 !important;
+}
   
 /*# sourceMappingURL=custom.css.map */
