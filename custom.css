@@ -1796,11 +1796,11 @@ div.c-scrollbar__hider::before {
   border-bottom: 1px solid #666 !important;
 }
 
-// Code snippet styling
-span.c-message_kit__file__meta__text>span, i.c-icon c-icon--caret-down.c-icon--inherit::before {
+/* Code snippet styling */
+/* span.c-message_kit__file__meta__text>span, i.c-icon c-icon--caret-down.c-icon--inherit::before {
   color: var(--text) !important;
   opacity: 0.32 !important;
-}
+} */
 
 .c-pillow_file__snippet__content .CodeMirror-code>div:before {
   color: var(--text) !important;
@@ -1810,6 +1810,14 @@ span.c-message_kit__file__meta__text>span, i.c-icon c-icon--caret-down.c-icon--i
 .c-message_kit__file__meta {
   color: var(--text) !important;
   opacity: 0.32 !important;
+}
+
+.c-pillow_file__content--collapsed:after {
+  background: linear-gradient(0deg,#111,hsla(0,0%,100%,0) 40px) !important;
+}
+
+.c-pillow_file_container {
+  border-color: var(--border-dim) !important;
 }
   
 /*# sourceMappingURL=custom.css.map */
