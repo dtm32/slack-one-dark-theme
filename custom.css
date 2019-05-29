@@ -888,8 +888,9 @@ div::-webkit-scrollbar-thumb,
 .lfs_list::-webkit-scrollbar-thumb,
 #contents_container::-webkit-scrollbar-thumb {
   color: transparent !important;
-  border: 1px solid var(--scrollbar-border) !important;
-  background-color: transparent !important; }
+  border: 1px solid red !important;
+  background-color: transparent !important; 
+}
 
 /* new scrollbar */
 .p-channel_sidebar div.c-custom_scrollbar__thumb_vertical,
