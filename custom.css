@@ -1879,11 +1879,11 @@ div::-webkit-scrollbar-thumb, .lfs_list::-webkit-scrollbar-thumb, #contents_cont
 }
 
 /* emoji picker */
-.p-emoji_picker__list_container {
+.p-emoji_picker__list_container, .p-emoji_picker__heading {
   background: var(--background) !important;
 }
 
-.p-emoji_picker__footer {
+.p-emoji_picker__footer, .p-emoji_picker__input_container, .p-emoji_picker__content {
   background: var(--background-elevated) !important;
 }
 
