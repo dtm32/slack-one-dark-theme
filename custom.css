@@ -1866,13 +1866,13 @@ div.c-scrollbar__hider::before {
 }
 
 /* scrollbar styling */
-::-webkit-scrollbar-thumb {
+/*::-webkit-scrollbar-thumb {
   border: 2px solid red !important;
 }
 
 div::-webkit-scrollbar-thumb, .lfs_list::-webkit-scrollbar-thumb, #contents_container::-webkit-scrollbar-thumb {
   border: none !important;
-}
+}*/
 
 /* emoji picker */
 .p-emoji_picker__list_container, .p-emoji_picker__heading {
