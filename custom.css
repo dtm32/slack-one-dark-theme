@@ -1856,15 +1856,8 @@ div.c-scrollbar__hider::before {
 }
 
 /* new message banner */
-.c-message_list__unread_divider::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: -15px;
-  right: -23px;
-  height: 20px;
-  background: red;
-  z-index: 200;
+.p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before {
+  box-shadow: 0 32px var(--background) !important;
 }
 
 /* remove message hover highlight */
