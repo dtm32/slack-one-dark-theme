@@ -1893,4 +1893,40 @@ a.c-link {
   color: var(--text-link) !important;
 }
 
+/* @name mentions */
+.c-member_slug--link {
+  background: var(--background-elevated) !important;
+}
+
+.c-member_slug--link:hover {
+  background: var(--background-hover) !important;
+  color: var(--text-accent) !important;
+}
+
+/* uploaded file link */
+.c-pillow_file {
+  background: var(--background-elevated) !important;
+}
+
+.c-pillow_file__icon--slide:after {
+  color: var(--background-elevated) !important;
+  border-color: var(--background-elevated) !important;
+}
+
+.c-icon--file-archive:after {
+  background: var(--primary) !important;
+}
+
+.c-pillow_file__swap .c-pillow_file__slide {
+  background: var(--background-elevated) !important;
+}
+
+.c-pillow_file__title {
+  color: var(--text-accent) !important;
+}
+
+.c-file__action_button {
+  background: var(--background-elevated) !important;
+}
+
 /*# sourceMappingURL=custom.css.map */
