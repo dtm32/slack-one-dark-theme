@@ -1856,7 +1856,7 @@ div.c-scrollbar__hider::before {
 }
 
 /* new message banner */
-.p-message_pane__unread_banner.p-message_pane__banner::before {
+.c-message_list__unread_divider::before {
   content: "";
   position: absolute;
   top: -20px;
