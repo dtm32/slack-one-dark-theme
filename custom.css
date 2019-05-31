@@ -1878,13 +1878,18 @@ div::-webkit-scrollbar-thumb, .lfs_list::-webkit-scrollbar-thumb, #contents_cont
   background: var(--background) !important;
 }
 
-.p-emoji_picker__footer, .p-emoji_picker__input_container, .p-emoji_picker__content {
+.p-emoji_picker__footer, .p-emoji_picker__input_container, .p-emoji_picker__content, .p-emoji_picker__heading {
   background: var(--background-elevated) !important;
 }
 
 .p-emoji_picker__group_tab--active {
   background: var(--primary) !important;
   color: var(--background-elevated) !important;
+}
+
+.p-emoji_picker__content:hover .p-emoji_picker__skintone_btn_container {
+  background: var(--background-elevated) !important;
+  border-color: var(--background-elevated) !important;
 }
 
 /* link color */
