@@ -1922,6 +1922,10 @@ a.c-link {
   background: var(--primary) !important;
 }
 
+.c-icon--file-archive:before {
+  color: var(--primary) !important;
+}
+
 .c-pillow_file__swap .c-pillow_file__slide {
   background: var(--background-elevated) !important;
 }
@@ -1932,6 +1936,14 @@ a.c-link {
 
 .c-file__action_button {
   background: var(--background-elevated) !important;
+}
+
+.c-file__action_button, .c-file__action_button:link {
+  color: var(--text) !important;
+}
+
+.c-file__action_button:hover {
+  color: var(--primary) !important;
 }
 
 /* message hover popup */
