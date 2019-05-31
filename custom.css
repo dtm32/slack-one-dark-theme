@@ -29,7 +29,8 @@
   --orange2: #E5707B;
   --gray: #3E4451;
   --silver: #9da5b4;
-  --black: #21252b; }
+  --black: #21252b; 
+  --active-user: #39E500; }
 
 @keyframes fade-background-highlight {
   from {
@@ -1936,6 +1937,11 @@ a.c-link {
 /* message hover popup */
 .c-message_actions__button:active {
   background: var(--background-hover);
+}
+
+/* active user color */
+#team_menu #presence.active:before, .c-icon--presence-online:before, .p-channel_sidebar__channel--im-slackbot:before, .channel_header_member_status .presence .presence_icon:before {
+  color: var(--active-user) !important;
 }
 
 /*# sourceMappingURL=custom.css.map */
