@@ -1956,4 +1956,30 @@ a.c-link {
   color: var(--active-user) !important;
 }
 
+/* search menu */
+.c-search_modal .popover>div {
+  background: var(--background-elevated) !important;
+}
+
+.c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box {
+  background: var(--background) !important;
+}
+
+.c-search__input_and_close {
+  background: var(--background) !important;
+  border-color: var(--background) !important;
+}
+
+.c-search_autocomplete footer {
+  background: var(--background) !important;
+}
+
+.c-search_autocomplete__suggestion_item, .c-search_autocomplete__suggestion_item .c-unified_member__name {
+  color: var(--text) !important;
+}
+
+.c-unified_member__display-name {
+  color: var(--text-accent) !important;
+}
+
 /*# sourceMappingURL=custom.css.map */
