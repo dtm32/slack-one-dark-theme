@@ -1974,7 +1974,7 @@ a.c-link {
   background: var(--background) !important;
 }
 
-.c-search_autocomplete__suggestion_item, .c-search_autocomplete__suggestion_item .c-unified_member__name {
+.c-search_autocomplete__suggestion_item, .c-search_autocomplete__suggestion_item .c-unified_member__name, .c-app_label {
   color: var(--text) !important;
 }
 
